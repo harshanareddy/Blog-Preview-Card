@@ -2,10 +2,6 @@
 
 A responsive blog preview card built from a Frontend Mentor challenge. Mobile-first, accessible, and lightly animated.
 
-## ✨ Demo
-- Live: <YOUR_LINK_HERE>
-- Solution: <REPO_LINK_HERE>
-
 ## 📸 Screenshot
 <img width="464" height="485" alt="image" src="https://github.com/user-attachments/assets/661d4b78-4038-4f79-9487-aa17b656c405" />
 
