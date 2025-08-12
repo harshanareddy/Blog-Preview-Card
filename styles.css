@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(47, 88%, 63%) ;
+    font-family: "Figtree", sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    width: 92vw;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgba(0,0,0);
+    gap: 1rem;
+}
+
+@media (min-width: 768px){
+    .card{
+        max-width: 384px;
+        padding: 1.5rem;
+    }
+}
+.card .blogger-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+    border-radius: 7px;
+}
+
+img#picture{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+button{
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+    background-color: hsl(47, 88%, 63%);
+    border: 0px hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p#caption{
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p{
+    color: hsl(0, 0%, 42%);
+}
+.blogger-container p{
+    color: #000;
+    font-weight: 500;
+}
